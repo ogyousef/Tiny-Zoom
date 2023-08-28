@@ -2,7 +2,10 @@
 
 
 ## EXPRESS - NEXTJS - FIREBASE - SOCKET IO
-TINY TINY UWU
+
+
+
+<sub><sup>TINY TINY UWU</sup></sub>
 
 # TINY ZOOM: Experience the next evolution in video communication with our Peer to Peer support, crystal-clear video and audio quality , real-time screen sharing, and interactive chat features , TINY ZOOM brings you closer than ever before.
 
@@ -18,7 +21,7 @@ TINY TINY UWU
 ![Screenshot 2023-08-28 at 12 18 28 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/a21638e4-3df8-4dbd-b243-63cfc92d800a)
 
 
-# Call Room ( sorry no frens to test it with :(  ) 
+# Call Room  <sub><sup>( sorry no frens to test it with :(  ) </sup></sub>
 
 ![Screenshot 2023-08-28 at 12 21 23 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/8c03b60a-721b-45b8-8ad8-ad93f1679ea2)
 
