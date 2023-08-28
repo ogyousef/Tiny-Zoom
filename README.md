@@ -1,7 +1,6 @@
 # TINY ZOOM
 
 
-# [TRY-IT]([https://www.google.com](https://tiny-zoom.vercel.app/))
 
 # https://tiny-zoom.vercel.app/
 
