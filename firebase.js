@@ -6,6 +6,8 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import 'firebase/firestore';
 
+// Please REMMBER TO HIDE THIS INFO IN ENV VAR
+// I JUST LEFT IT INCASE U WANT TO KNOW HOW FIREBASE IS SETUP :))
 
 const firebaseConfig = {
   apiKey: "AIzaSyC50UUObqdSG5nuhrYaZxBrfoU0S9fMTYc",
