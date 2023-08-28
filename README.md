@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## TINY ZOOM
+
+
+## EXPRESS - NEXTJS - FIREBASE - SOCKET IO
+TINY TINY UWU
+
+# TINY ZOOM: Experience the next evolution in video communication with our Peer to Peer support, crystal-clear video and audio quality , real-time screen sharing, and interactive chat features , TINY ZOOM brings you closer than ever before.
+
+# MODERN  UI  WOOOOOOW
+![Screenshot 2023-08-28 at 12 15 13 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/e4a052fb-e238-40a3-b4c7-f1f3e6358500)
+
+# Room Display 
+![Screenshot 2023-08-28 at 12 18 19 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/36be2328-efc9-4216-8bf4-26a517777e35)
+
+
+# New Room 
+
+![Screenshot 2023-08-28 at 12 18 28 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/a21638e4-3df8-4dbd-b243-63cfc92d800a)
+
+
+# Call Room ( sorry no frens to test it with :(  ) 
+
+![Screenshot 2023-08-28 at 12 21 23 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/8c03b60a-721b-45b8-8ad8-ad93f1679ea2)
 
 ## Getting Started
 
