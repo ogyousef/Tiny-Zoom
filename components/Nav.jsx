@@ -82,7 +82,7 @@ const Navbar = () => {
                 <Link href="/" className="purple_gradient flex">
                   <div>Home</div>
                   <Image
-                    src="/hime.png"
+                    src="/Hime.png"
                     alt="Home"
                     width={30}
                     height={30}
