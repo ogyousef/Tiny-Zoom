@@ -1,5 +1,7 @@
 import './globals.css'
 import Navbar from '@/components/Nav'
+import { UserAuth,AuthContextProvider } from '../context/AuthContext';
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,13 +13,18 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className='bg-gradient-to-r from-rose-100 to-teal-100'>
-        <div className='main'></div>
+      <AuthContextProvider>
+
+      <div className='main'></div>
 
         
-        <div className='app '>
+<div className='app '>
 <Navbar />
-          {children}
-        </div>
+  {children}
+</div>
+
+
+      </AuthContextProvider>
 
 
 

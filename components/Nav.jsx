@@ -1,13 +1,44 @@
 "use client";
 import React, {useState, useEffect} from "react";
+import {UserAuth} from "../context/AuthContext";
+import {db} from "@/firebase";
 import Link from "next/link";
 import Image from "next/image";
+import {addDoc, collection, getDoc, query, where,getDocs,doc, setDoc,serverTimestamp} from "@firebase/firestore";
+
+
+
+async function CreateUser(User) {
+  const UsersRef = collection(db, "MZUsers");
+  const snap = await getDoc(doc(db, 'MZUsers', User.uid))
+if (snap.exists()) {
+  console.log("WELCOME BACK :))")
+}
+else {
+  const newUserRef = doc(db,"MZUsers",User.uid)
+  await setDoc(newUserRef, {
+    Name: User.displayName,
+    Id:User.uid,
+    Email: User.email,
+    picture: User.photoURL,
+    Rooms: [],
+    CreateDate: serverTimestamp()
+  });
+  console.log("WELCOME TO THE APP")
+}
+}
+
 
 const Navbar = () => {
+  const {user, googleSignIn, logOut} = UserAuth();
+
   const [toggleDropdown, settoggleDropdown] = useState(false);
 
   const [loading, setLoading] = useState(true);
-  const user = false;
+
+
+
+
   const handleSignIn = async () => {
     try {
       await googleSignIn();
@@ -24,12 +55,17 @@ const Navbar = () => {
     }
   };
 
+
+
   useEffect(() => {
     const checkAuthentication = async () => {
       await new Promise((resolve) => setTimeout(resolve, 50));
       setLoading(false);
     };
     checkAuthentication();
+    {
+      user ? CreateUser(user) : console.log("Not Logged in");
+    }
   }, [user]);
   //navbar bg-primary text-primary-content
   return (
@@ -101,7 +137,12 @@ const Navbar = () => {
             </li>
           </ul>
         ) : (
-          <div></div>
+          <div>
+          <p className="purple_gradient">Welcome, {user.displayName}</p>
+          <p className="cursor-pointer black_btn" onClick={handleSignOut}>
+            Sign out
+          </p>
+        </div>
         )}
       </div>
       {/* Phone */}
@@ -140,6 +181,7 @@ const Navbar = () => {
               onClick={() => settoggleDropdown((prev) => !prev)}
             />
             {toggleDropdown && ( <div className="dropdown bg-slate-400">
+             {user?(<p> <span className="purple_gradient">Welcome </span> <span className="orange_gradient font-bold"> {user.displayName} </span></p>):(<></>)}
               <Link
                 href="/"
                 className="drowpdown_link purple_gradient font-bold border-solid border-2 rounded-lg border-spacing-5 border-red-100"
@@ -155,17 +197,25 @@ const Navbar = () => {
               >
                 New Room
               </Link>
-
-              <button
+            {!user ? (<><button
                 type="button"
-                className="mt-5 w-full black_btn purple_gradient "
+                className="mt-2 w-full black_btn purple_gradient "
                 onClick={() => {
                   settoggleDropdown(false);
-                  signOut();
+                  handleSignIn();
+                }}
+              >
+                Sign In
+              </button></>):(<><button
+                type="button"
+                className="mt-2 w-full black_btn purple_gradient "
+                onClick={() => {
+                  settoggleDropdown(false);
+                  handleSignOut();
                 }}
               >
                 Sign Out
-              </button>
+              </button></>)}
             </div>)}
            
           </div>
