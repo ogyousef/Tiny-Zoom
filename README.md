@@ -21,20 +21,16 @@
 Experience the next evolution in video communication with our Peer to Peer support, crystal-clear video and audio quality , real-time screen sharing, and interactive chat features , TINY ZOOM brings you closer than ever before.
 
 ### MODERN  UI  WOOOOOOW
-![Screenshot 2023-08-28 at 12 15 13 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/e4a052fb-e238-40a3-b4c7-f1f3e6358500)
+![Screenshot 2023-08-28 at 1 00 31 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/d3909576-1e7c-403a-ae11-c2d1d1624330)
 
 ### Room Display 
-![Screenshot 2023-08-28 at 12 18 19 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/36be2328-efc9-4216-8bf4-26a517777e35)
-
+![Screenshot 2023-08-28 at 12 18 19 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/78edaf8f-ce02-4606-80ce-4ed97a2014e7)
 
 ### New Room 
-
-![Screenshot 2023-08-28 at 12 18 28 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/a21638e4-3df8-4dbd-b243-63cfc92d800a)
-
+![Screenshot 2023-08-28 at 12 18 28 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/2ede5c72-4a43-43f0-992b-9031a6948511)
 
 # Call Room  </br> <sub><sup>( sorry no frens to test it with :(  ) </sup></sub>
-
-![Screenshot 2023-08-28 at 12 21 23 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/8c03b60a-721b-45b8-8ad8-ad93f1679ea2)
+![Screenshot 2023-08-28 at 12 21 23 AM](https://github.com/ogyousef/Tiny-Zoom/assets/83747441/eeaf5f4a-a403-49b6-99a4-dfc085d19779)
 
 ## Getting Started
 
